@@ -30,6 +30,32 @@
     .bg-dark-grey{
         background-color: var(--dark-grey);
     }
+    .linea{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 100px;
+    }
+    .line_white::before{
+        width: 100px;
+        content: "";
+        border: 1px solid var(--white);
+    }
+    .line_white::after{
+        width: 100px;
+        content: "";
+        border: 1px solid var(--white);
+    }
+    .line_black::before{
+        width: 100px;
+        content: "";
+        border: 1px solid var(--black);
+    }
+    .line_black::after{
+        width: 100px;
+        content: "";
+        border: 1px solid var(--black);
+    }
     
     
     /* HEADER */
@@ -39,6 +65,7 @@
         height: 90px;
         top: 0;
         width: 100%;
+        z-index: 9999;
     }
     
     .hover_link{
@@ -58,6 +85,7 @@
         width: 70%;
         max-width: 100%;
     }
+
     
     /* FOOTER */
    .border_circle{
