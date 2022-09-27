@@ -8,16 +8,12 @@
     --dark-grey: rgba(44, 62, 80, 1);
     
     }
-
-
     /* GENERAL */
-
     body{
         background-color: var(--white);
         color: var(--black);
         font-family: Arial, Helvetica, sans-serif;
     }
-    
     .my-bg-black{
         background-color: var(--black);
     }
@@ -56,8 +52,6 @@
         content: "";
         border: 1px solid var(--black);
     }
-    
-    
     /* HEADER */
     header{
         background-color: var(--black);
@@ -67,16 +61,13 @@
         width: 100%;
         z-index: 9999;
     }
-    
     .link_nav{
         color: var(--white);
         opacity: 100%;
     }
-    
     .link_nav:hover{
         color: var(--green);
     }
-
     /* MAIN */
     #hero{
         padding-top: 100px;
@@ -86,11 +77,9 @@
         width: 70%;
         max-width: 100%;
     }
-
     .my_cover{
         position: relative;
     }
-    
     .img-layover{
         font-size: 70px;
         position: absolute;
@@ -108,9 +97,6 @@
     .my_cover:hover .img-layover{
         display: block;
     }
-    
-    
-
     /* FOOTER */
     .footer_link{
         color: var(--green);
