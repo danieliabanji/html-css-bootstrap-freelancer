@@ -68,11 +68,12 @@
         z-index: 9999;
     }
     
-    .hover_link{
+    .link_nav{
         color: var(--white);
+        opacity: 100%;
     }
     
-    .hover_link_nav:hover{
+    .link_nav:hover{
         color: var(--green);
     }
 
@@ -81,7 +82,7 @@
         padding-top: 100px;
         color: var(--white);
     }
-    img.avatar{
+    .avatar{
         width: 70%;
         max-width: 100%;
     }
