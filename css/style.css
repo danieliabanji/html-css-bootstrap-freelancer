@@ -86,22 +86,31 @@
         max-width: 100%;
     }
 
+    .my_cover{
+        position: relative;
+    }
     
+    .img-layover{
+        font-size: 70px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+    .my_cover:hover{
+        cursor: pointer;
+    }
+    .my_cover:hover img{
+        opacity: 0.5;
+    }
+    .my_cover:hover .img-layover{
+        display: block;
+    }
+    
+    
+
     /* FOOTER */
-   .border_circle{
-        border: 1px solid var(--white);
-        border-radius: 50%;
-        padding: 0.75rem;
-   }
-   #footer-top i{
-    height: 30px;
-    width: 30px;
-    padding: 6px;
-    vertical-align: middle;
-    text-align: center;
-   }
-
-
     .footer_link{
         color: var(--green);
         text-decoration: none;
