@@ -1,0 +1,10 @@
+/* Common */
+:root{
+    /* color styles */
+    --white: #ffffff;
+    --black: rgba(44, 62, 88, 1);
+    --green: rgba(25, 188, 156, 1);
+    --grey: rgba(58, 84, 109, 1);
+    --dark-grey: rgba(44, 62, 80, 1);
+    
+    }
