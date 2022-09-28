@@ -52,14 +52,14 @@
     header{
         background-color: var(--black);
         position: fixed;
-        height: 90px;
+        width: 100%;
         top: 0;
         width: 100%;
         z-index: 9999;
+        padding: 10px;
     }
     .link_nav{
         color: var(--white);
-        opacity: 100%;
     }
     .link_nav:hover{
         color: var(--green);
@@ -109,6 +109,10 @@
     .footer_link:hover{
         color: var(--green);
         text-decoration: underline;
+    }
+    #footer-top i{
+        height: 20px;
+        width: 20px;
     }
    
 
