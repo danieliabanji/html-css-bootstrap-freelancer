@@ -6,10 +6,10 @@
     --green: rgba(25, 188, 156, 1);
     --grey: rgba(58, 84, 109, 1);
     --dark-grey: rgba(44, 62, 80, 1);
-    --hover-color: rgba(26, 188, 156, 0.4)
+    --hover-color: rgba(26, 188, 156, 0.5)
     
-    }
-    /* GENERAL */
+}
+/* GENERAL */
     body{
         background-color: var(--white);
         color: var(--black);
@@ -27,7 +27,27 @@
     .bg-dark-grey{
         background-color: var(--dark-grey);
     }
-   
+
+    /* STELLA CON LINEE */
+    .linea{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 100px;
+    }
+    .line_white::before, .line_white::after{
+        height: 3px;
+        width: 100px;
+        content: "";
+        background-color: var(--white);
+    }
+    .line_black::before, .line_black::after{
+        height: 3px;
+        width: 100px;
+        content: "";
+        background-color: var(--black);
+    }
+    
     /* HEADER */
     header{
         background-color: var(--black);
