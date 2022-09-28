@@ -95,6 +95,7 @@
     }
     .card-overlay{
         position: relative;
+        cursor: pointer;
     }
     .card-overlay:hover .overlay{
         opacity: 1;
