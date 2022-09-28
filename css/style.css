@@ -85,7 +85,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        display: none;   
+        transition: opacity 1000ms;
+        opacity: 0;
     }
     .overlay i{
         color: var(--white);
@@ -96,11 +97,7 @@
         position: relative;
     }
     .card-overlay:hover .overlay{
-        display: block;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
+        opacity: 1;
     }
     
     /* FOOTER */
